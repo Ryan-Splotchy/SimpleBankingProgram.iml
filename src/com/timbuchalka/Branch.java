@@ -107,7 +107,7 @@ public class Branch implements IBranchFunctions{
     }
 
     public static String shaylinsRandomizer() {
-        String[] randomObjects = {"Dildo", "Pebble", "Toaster", "Mustang", "Toothpick", "Almond", "Fire Lighters", "Weed", "Beer", "Laptop"};
+        String[] randomObjects = {"Coconut", "Pebble", "Toaster", "Mustang", "Toothpick", "Almond", "Fire Lighters", "Sandal", "Mouse", "Laptop"};
         int random = (int) (Math.random() *10);
         return randomObjects[random];
     }
@@ -132,5 +132,4 @@ public class Branch implements IBranchFunctions{
 //            return result;
 //        }
 //    }
-
 }
